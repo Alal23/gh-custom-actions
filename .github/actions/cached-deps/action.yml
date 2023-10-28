@@ -29,5 +29,5 @@ runs:
        run: echo "input detect ${{ inputs.caching }}"   
        shell: bash
      - name: output detect
-       run: echo "output detect${{ steps.install.ouputs.cache }} "  
+       run: echo "output detect${{ steps.install.ouputs }} "  
        shell: bash
