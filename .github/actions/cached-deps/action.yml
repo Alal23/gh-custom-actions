@@ -19,7 +19,7 @@ runs:
           path: node_modules
           key: deps-node-modules-${{ hashFiles('**/package-lock.json') }}
      - name: input detect
-       run: echo "input detect ${{ inpust.caching }}"   
+       run: echo "input detect ${{ inputs.caching }}"   
      - name: output detect
        run: echo "output detect${{ steps.install.ouputs.cache }} "  
      - name: Install dependencies
